@@ -1,0 +1,14 @@
+h3 {
+    color: goldenrod;
+}
+body {
+    background-color: rgb(36, 36, 36);
+}
+#grid {
+    display: grid;
+    grid-template-columns: repeat(4,0fr);
+    justify-content: center;
+}
+#grid img {
+    max-height: 23vh;
+}
